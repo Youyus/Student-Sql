@@ -90,7 +90,7 @@ public class Student {
 			while(rs.next()) {
 				for( int i = 1; i <= 3; i++) {
 					System.out.print(rs.getString(i) + "    " );
-				}
+				} 
 				System.out.println();
 			}
 		} catch (SQLException e) {
